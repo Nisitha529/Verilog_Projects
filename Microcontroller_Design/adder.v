@@ -1,0 +1,8 @@
+module adder (
+    input [7:0] In,
+    Output [7:0] Out
+);
+
+assign Out = In + 1 ;
+    
+endmodule
