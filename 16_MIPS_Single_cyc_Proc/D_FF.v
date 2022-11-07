@@ -1,9 +1,9 @@
 module D_FF (
+    output q,
     input d,
     input rst_n,
     input clk,
-    input init_value,
-    output q
+    input init_value
 );
 
     reg q ;
